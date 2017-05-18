@@ -1,8 +1,11 @@
 ## Setup steps
 
+    bundle
     rails db:create
     rake db:migrate
     rake db:setup
+
+    rails s -b $IP -p 8081
 
 ### PG::Error: ERROR: new encoding (UTF8) is incompatible
 

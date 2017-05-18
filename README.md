@@ -2,6 +2,7 @@
 
     rails db:create
     rake db:migrate
+    rake db:setup
 
 ### PG::Error: ERROR: new encoding (UTF8) is incompatible
 
